@@ -3,12 +3,9 @@ const EXPORTED_SYMBOLS = ["config"];
 
 const config = {
   study: {
-    studyName: "share-button-study", // no spaces, for all the reasons
+    studyName: "pioneer-enrollment-study", // no spaces, for all the reasons
     weightedVariations: [
-      { name: "doorhangerDoNothing", weight: 1 },
-      { name: "doorhangerAskToAdd", weight: 1 },
-      { name: "doorhangerAddToToolbar", weight: 1 },
-      { name: "highlight", weight: 1 },
+      { name: "popunder", weight: 1 },
       { name: "control", weight: 1 },
     ],
     /** **endings**
@@ -20,10 +17,10 @@ const config = {
       */
     endings: {
       expired: {
-        baseUrl: "https://qsurvey.mozilla.com/s3/sharing-study",
+        baseUrl: "https://qsurvey.mozilla.com/s3/pioneer-enrollment-study",
       },
       "user-disable": {
-        baseUrl: "https://qsurvey.mozilla.com/s3/sharing-study",
+        baseUrl: "https://qsurvey.mozilla.com/s3/pioneer-enrollment-study",
       },
     },
     telemetry: {
